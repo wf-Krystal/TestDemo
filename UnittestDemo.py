@@ -70,3 +70,29 @@ if __name__ == "__main__":
             # description='test'  # 测试报告的描述
         )
         runner.run(suite)
+
+"""
+需要写测试case的类都需要继承自unittest.testcase类
+unittest.Testsuite()是测试套件对象
+suite.addTest(testcase class(方法名))可以逐个添加想要运行的testcase至测试套件
+suite.addTests()可以添加一个testcase的列表至测试套件
+suite.addTest(testcase class)这里还可以添加testcase class,但是必须在testcase class中定义一个runTest方法
+
+    def runTest(self):
+        self.test_add()
+        self.test_sub()
+    suite.addTest(Testadd())
+
+unittest.makesuite(testcase class)可以直接创建一个测试套件
+unittest.TestLoader().loaderTestsFromTestCase(testcase classs)从指定的testcase class类构建一个测试套件
+unittest.TextTestRunner()创建一个运行器
+runer.run(suite)运行指定的测试套件
+suite.countTestCases()返回测试套件中的case数
+discover = unittest.defaultTestLoader.discover(test_dir, pattern='test.py')这个方法可以去test_dir目录下查找以test开头的.py文件，并自动加载这些test.py中的testcase class生成一个测试套件
+parameterized模块为unittest的一个扩展模块，可以很方便的对case进行参数化，使用@parameterized.expand()参数为一个list，每个list中为每次需要参数化数据的一个元祖
+
+作者：忆江南_1569
+链接：https://www.jianshu.com/p/d52c20cd7021
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+"""
