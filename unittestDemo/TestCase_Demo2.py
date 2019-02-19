@@ -4,7 +4,7 @@
 #集合可以写在main
 
 import unittest
-from TestCaseDemo import TestCaseDemo
+from unittestDemo.TestCaseDemo import TestCaseDemo
 
 #指定并启动测试集合
 

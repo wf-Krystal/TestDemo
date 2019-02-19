@@ -4,7 +4,7 @@
 #包含集合，多集合
 
 import unittest
-from TestCaseDemo import TestCaseDemo
+from unittestDemo.TestCaseDemo import TestCaseDemo
 
 #添加不同的集合
 

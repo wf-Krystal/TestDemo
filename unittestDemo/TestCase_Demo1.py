@@ -4,7 +4,7 @@
 #集合写入一个方法，main调用并启动
 
 import unittest
-from TestCaseDemo import TestCaseDemo
+from unittestDemo.TestCaseDemo import TestCaseDemo
 
 #添加一个测试集合，并添加case
 
