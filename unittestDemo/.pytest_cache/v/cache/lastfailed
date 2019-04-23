@@ -1,5 +1,8 @@
 {
   "Test001_Fail.py::Test001_Fail::test_Case1": true,
   "Test001_Fail.py::Test001_Fail::test_Case2": true,
-  "UnittestDemo.py": true
+  "UnittestDemo.py": true,
+  "weak_pwd2.py::PasswordWithJsonTestCase::test_weak_password": true,
+  "weak_pwd3.py::WeakPasswordTestCase::test_weak_password": true,
+  "week_pwd.py::PasswordTestCase::test_week_password": true
 }

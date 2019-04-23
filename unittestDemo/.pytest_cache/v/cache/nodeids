@@ -1,1 +1,4 @@
-[]
+[
+  "weak_pwd3.py::WeakPasswordTestCase::test_qwe",
+  "weak_pwd3.py::WeakPasswordTestCase::test_weak_password"
+]
