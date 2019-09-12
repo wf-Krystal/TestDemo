@@ -1,4 +1,6 @@
 [
-  "weak_pwd3.py::WeakPasswordTestCase::test_qwe",
-  "weak_pwd3.py::WeakPasswordTestCase::test_weak_password"
+  "skintestDemo.py::MyTest::test_expected_failure",
+  "skintestDemo.py::MyTest::test_skip",
+  "skintestDemo.py::MyTest::test_skip_if",
+  "skintestDemo.py::MyTest::test_skip_unless"
 ]
